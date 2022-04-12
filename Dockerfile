@@ -1,7 +1,8 @@
 #airgeddon Dockerfile
 
 #Base image
-FROM kalilinux/kali-linux-docker:latest
+#FROM kalilinux/kali-linux-docker:latest << notfound
+FROM kalilinux/kali:latest
 
 #Credits & Data
 LABEL \
