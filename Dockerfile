@@ -2,7 +2,7 @@
 
 #Base image
 #FROM kalilinux/kali-linux-docker:latest << notfound
-FROM kalilinux/kali:latest
+FROM kalilinux/kali-last-release
 
 #Credits & Data
 LABEL \
